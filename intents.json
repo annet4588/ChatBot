@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am timeless.", "I don't have an age like humans.", "Age is just a number for bots like me."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you"],
+         "responses": ["I am a bot created to assist you.", "My name is ChatBot.", "I am called ChatBot.", "You can call me ChatBot.", "I am an AI chatbot here to help.", "I am a bot, how can I assist you?"],
+         "context_set": ""
+        },
+        {"tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather.", "How is the weather today?", "Weather forecast"],
+        "responses": ["I'm not able to check the weather right now, but you can use a weather website or app!", "Please check a weather service for the latest updates.", "I recommend checking the current weather on a weather website or app."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
